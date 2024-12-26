@@ -1,3 +1,5 @@
+"""Unit tests for the Levenshtein distance calculation module."""
+
 import pytest
 
 from main import levenshtein_distance
