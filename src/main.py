@@ -1,3 +1,6 @@
+"""Module for calculating Levenshtein distance between two strings."""
+
+
 def levenshtein_distance(s1: str, s2: str) -> int:
     m, n = len(s1), len(s2)
 
