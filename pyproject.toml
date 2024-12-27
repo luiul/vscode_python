@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 
 [tool.pytest.ini_options]
+# List of dirs to look for Python modules
 pythonpath = "src"
 
 [dependency-groups]
