@@ -1,12 +1,12 @@
 [project]
 name = "vscode-python"
 version = "0.1.0"
-description = "Add your description here"
+description = "Example VSCode Python project"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "pytest>=8.3.3",
-]
+requires-python = ">=3.13"
 
 [tool.pytest.ini_options]
 pythonpath = "src"
+
+[dependency-groups]
+dev = ["pytest>=8.3.3"]
